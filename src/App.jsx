@@ -1,11 +1,17 @@
-import { useState } from 'react'
 import CardsSection from './assets/components/CardsSection'
+import Carde from "./carde.jsx";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-     <CardsSection />
+      <Carde />
+      <CardsSection />
+      <Footer />
     </>
-  )
+  );
 }
-export default App
+
+
+export default App;
+
