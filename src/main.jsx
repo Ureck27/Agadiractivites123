@@ -8,6 +8,8 @@ import ReactDOM from "react-dom/client";
 import Carde from "./carde.jsx";
 >>>>>>> lahosain
 
+
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Carde />
